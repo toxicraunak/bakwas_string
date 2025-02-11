@@ -7,6 +7,6 @@ class Config:
     API_HASH = "38d104adbd94c66a349714abd7977d80"
     #TOKEN = "6521122303:AAGCO3XMjcA0SN5NAi1M0NpmbmMxEtwwYbg"
     TOKEN = os.environ.get("TOKEN", None)
-    MONGO_URL = "mongodb+srv://Chatgpt:Chatgpt%40123@chatgpt.56l90.mongodb.net/?retryWrites=true&w=majority&appName=Chatgpt"
-    START_PIC = "https://envs.sh/aKf.mp4"
-    SUDOERS = filters.user(["8129810243"])
+    MONGO_URL = "mongodb://factotask:toxictanji@cluster0-shard-00-00.v8qm5.mongodb.net:27017/?authSource=admin"
+    START_PIC = "https://graph.org/file/93cf947713f49e9e4f99a.jpg"
+    SUDOERS = filters.user(["7029912634"])
